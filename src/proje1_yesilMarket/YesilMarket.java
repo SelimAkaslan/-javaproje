@@ -58,7 +58,7 @@ public class YesilMarket {
 			System.out.println("Ağırlık giriniz:");
 			double kg = scan.nextDouble();
 			sepeteEkle(ürünNo, kg);
-			toplamFiyat = Math.floor(sepeteYazdır());
+			toplamFiyat = Math.round(sepeteYazdır());
 			System.out.println("Alış verişe deam etmek istermisiniz:");
 			devam = scan.next();
 		}while(devam.equalsIgnoreCase("e"));
