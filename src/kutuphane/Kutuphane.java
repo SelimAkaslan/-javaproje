@@ -22,6 +22,7 @@ public class Kutuphane extends Kitap {
 		kitaplar.put(count, kitap3);
 		count++;
 	}
+	
 	/*
 	 * Müşterileriler kütüphaneleri için bir kitap yönetim sistemi tasarlamanızı
 	 * istiyorlar.
